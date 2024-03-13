@@ -1,0 +1,6 @@
+Lai_suat=float(input('Nhập lãi suất: '))
+So_tien=int(input('Nhập số tiền: '))
+So_thang=int(input('Nhập số tháng: '))
+Tien_lai=int((So_tien*So_thang)*(Lai_suat/100/12))
+print('Tiền lãi: ({:,}*{:,})*({:,}/100/12)={:,}'.format(So_tien,So_thang,Lai_suat,Tien_lai))
+print('Tổng số tiền: {:,}+{:,}={:,}'.format(So_tien,Tien_lai,So_tien+Tien_lai))

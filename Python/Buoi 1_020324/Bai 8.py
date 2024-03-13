@@ -1,0 +1,5 @@
+chuoi=input('Nhập chuỗi: ')
+print('Độ dài chuỗi: {}'.format(len(chuoi)))
+print('4 ký tự đầu tiên: ',chuoi[0:4])
+print('4 ký tự cuối: ',chuoi[-4:])
+print('Các ký tự nhảy 2: ',chuoi[0::2])
